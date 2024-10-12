@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Layout, Menu, Input } from 'antd';
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
+import { HashRouter  as Router, Route, Routes, Link, useLocation } from 'react-router-dom';
 import FileGrid from './components/FileGrid'; // Adjust the path as necessary
 import ClusterView from './components/ClusterView';
 import './App.css';
